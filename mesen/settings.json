@@ -9775,6 +9775,14 @@
     "Items": [
       {
         "RomFile": {
+          "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\projects/src/game.nes",
+          "InnerFile": "",
+          "InnerFileIndex": 0
+        },
+        "PatchFile": null
+      },
+      {
+        "RomFile": {
           "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\tools\\roms\\Zelda.nes",
           "InnerFile": "",
           "InnerFileIndex": 0
@@ -9886,7 +9894,7 @@
   "MainWindow": {
     "WindowSize": {
       "Width": 512,
-      "Height": 505
+      "Height": 504
     },
     "WindowLocation": {
       "X": 466,
