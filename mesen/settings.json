@@ -9783,6 +9783,30 @@
       },
       {
         "RomFile": {
+          "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\tools\\roms\\Galaga.nes",
+          "InnerFile": "",
+          "InnerFileIndex": 0
+        },
+        "PatchFile": null
+      },
+      {
+        "RomFile": {
+          "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\projects\\src\\startup.nes",
+          "InnerFile": "",
+          "InnerFileIndex": 0
+        },
+        "PatchFile": null
+      },
+      {
+        "RomFile": {
+          "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\projects\\src\\game.nes",
+          "InnerFile": "",
+          "InnerFileIndex": 0
+        },
+        "PatchFile": null
+      },
+      {
+        "RomFile": {
           "Path": "C:\\Neumont stuff\\3rd yr\\4th Quarter\\Game Engine Projects\\nes-dev\\tools\\roms\\Zelda.nes",
           "InnerFile": "",
           "InnerFileIndex": 0
@@ -9824,14 +9848,6 @@
       {
         "RomFile": {
           "Path": "C:\\Users\\suryn\\Neumont stuff\\3rd yr\\4th Quarter\\Game Programming and Production\\nes-dev\\tools\\roms\\SMB MOD.nes",
-          "InnerFile": "",
-          "InnerFileIndex": 0
-        },
-        "PatchFile": null
-      },
-      {
-        "RomFile": {
-          "Path": "C:\\Users\\suryn\\Neumont stuff\\3rd yr\\4th Quarter\\Game Programming and Production\\nes-dev\\tools\\roms\\SMB.nes",
           "InnerFile": "",
           "InnerFileIndex": 0
         },

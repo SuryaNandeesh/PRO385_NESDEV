@@ -112,6 +112,9 @@ oam: .res 256	; sprite OAM data
     STA time
   skip:
 
+  ; Update score during VBlank
+  JSR update_score
+
   ; restore registers
   PLA
   TAY
@@ -396,6 +399,22 @@ not_left:
   NOT_HITRIGHT:
     RTS
 .endproc
+
+.proc update_score
+  LDA PPU_STATUS
+  LDA #$20
+  STA PPU_ADDRESS
+  LDA #$1F ; Column 31 (top right)
+  STA PPU_ADDRESS
+  LDA #'0'
+  CLC
+  ADC score
+  STA PPU_VRAM_IO
+  LDA #$00
+  STA PPU_SCROLL
+  STA PPU_SCROLL
+  RTS
+.endproc
 ;******************************************************************************
 ; Procedure: main
 ;------------------------------------------------------------------------------
@@ -433,8 +452,7 @@ forever:
     JSR read_controller
     JSR update_player
     JSR update_ball
-
-    ; Update sprite data (DMA transfer to PPU OAM)
+    ;JSR update_score   ; <-- Remove this line
     JSR update_sprites
 
     ; Infinite loop — keep running frame logic
